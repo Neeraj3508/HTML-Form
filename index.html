@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<style>
+		
+		.submit_button
+		{
+			background-color: green;
+			font-size: 20px;
+		}
+		.submit_button:hover
+		{
+			background-color: lightgreen;
+		}
+	</style>
+</head>
+<body>
+		<div>
+			<ul class="sidenav">
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#Gallery">Gallery</a></li>
+				<li><a href="#AboutUs">About Us</a></li>
+				<li><a href="#ContactUs">Contact Us</a></li>
+				<li><a href="#login">Login</a></li>
+			</ul>
+		</div>
+
+		<div class="content">
+			<div class="box">
+				<form>
+					<div class="labels">
+						<label for="name">Name</label>
+					</div>
+					<div class="fields">
+						<input type="text" id="name">
+					</div>
+					<div class="labels">
+						<label for="email">E-mail</label>
+					</div>
+					<div class="fields">
+						<input type="email" id="email">
+					</div>
+					<div class="labels">					
+						<label for="number">Phone Number</label>					
+					</div>
+					<div class="fields">
+						<input type="tel" id="number">
+					</div>
+					<div class="labels">
+						<label for="country">Country</label>					
+					</div>
+					<div class="select">
+						<select id="country">
+							<option>India</option>
+							<option>USA</option>
+							<option>Australia</option>
+							<option>China</option>
+							<option>Japan</option>
+							<option>Russia</option>
+							<option>Germany</option>
+							<option>Spain</option>
+							<option>Italy</option>
+							<option>Canada</option>
+						</select>
+					</div>
+					<div class="textarea">
+						<textarea placeholder="Write Something..."></textarea>
+					</div>
+					<div>
+						<input type="submit" value="Submit" class="submit_button">
+					</div>
+				</form>
+			</div>
+		</div>
+
+</body>
+</html>

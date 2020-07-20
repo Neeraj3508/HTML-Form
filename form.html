@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Form</title>
+</head>
+<body style="background:pink;">
+	<div>
+		<table>
+			<tr>
+				<td>FIRST NAME</td>
+				<td><input type="text"></td>
+				<td>(max 30 characters a-z and A-Z)</td>
+			</tr>
+			<tr>
+				<td>EMAIL ID</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>MOBILE NUMBER</td>
+				<td><input type="tel"></td>
+				<td>(10 digit number)</td>
+			</tr>
+			<tr>
+				<td>GENDER</td>
+				<td>
+					<label>Male</label>
+					<input type="radio" name="gender">
+					<label>Female</label>
+					<input type="radio" name="gender">
+				</td>
+			</tr>
+			<tr>
+				<td>ADDRESS</td>
+				<td colspan="2"><textarea cols="30" rows="5"></textarea></td>
+			</tr>
+
+			<tr>
+				<td>CITY</td>
+				<td><input type="text"></td>
+				<td>(max 30 characters a-z and A-Z)</td>
+			</tr>
+
+			<tr>
+				<td>PINCODE</td>
+				<td><input type="text"></td>
+				<td>(6 digit number)</td>
+			</tr>
+
+			<tr>
+				<td>STATE</td>
+				<td><input type="text"></td>
+				<td>(max 30 characters a-z and A-Z)</td>
+			</tr>
+			<tr>
+				<td>COUNTRY</td>
+				<td><input type="text" placeholder="India"></td>
+			</tr>
+
+			<tr>
+				<td>HOBBIES</td>
+				<td colspan="2">
+					<label>Drawing</label>
+					<input type="checkbox" name="hobby">
+					<label>Singing</label>
+					<input type="checkbox" name="hobby">
+					<label>Dancing</label>
+					<input type="checkbox" name="hobby">
+					<label>Sketching</label>
+					<input type="checkbox" name="hobby">
+					<label>Others</label>
+					<input type="checkbox" name="hobby">
+					<input type="text" name="hobby">
+				</td>
+			</tr>
+
+			<tr>
+				<td>QUALIFICATION</td>
+				<td colspan="2">
+					<table>
+						<tr>
+							<th>S.NO</th>
+							<th>Examination</th>
+							<th>Board</th>
+							<th>Percentage</th>
+							<th>Year of Passing</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Class X</td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Class XII</td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Graduation</td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+						</tr>
+
+						<tr>
+							<td>4</td>
+							<td>Masters</td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+							<td style="text-align: center;">(10 char max)</td>
+							<td style="text-align: center;">(upto 2 decimal)</td>
+							<td></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td>COURSES APPLIED FOR</td>
+				<td colspan="2">
+					<label>BCA</label>
+					<input type="checkbox" name="hobby">
+					<label>B Com</label>
+					<input type="checkbox" name="hobby">
+					<label>B Sc</label>
+					<input type="checkbox" name="hobby">
+					<label>B.A</label>
+					<input type="checkbox" name="hobby">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
